@@ -1,0 +1,43 @@
+[1.258s] Invoking command in '/home/pes2ug23cs625/maze_robot_ws/src/maze_solver': PYTHONPATH=/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build install --record /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log --single-version-externally-managed install_data
+[1.700s] running egg_info
+[1.701s] creating ../../build/maze_solver/maze_solver.egg-info
+[1.701s] writing ../../build/maze_solver/maze_solver.egg-info/PKG-INFO
+[1.701s] writing dependency_links to ../../build/maze_solver/maze_solver.egg-info/dependency_links.txt
+[1.702s] writing entry points to ../../build/maze_solver/maze_solver.egg-info/entry_points.txt
+[1.702s] writing requirements to ../../build/maze_solver/maze_solver.egg-info/requires.txt
+[1.703s] writing top-level names to ../../build/maze_solver/maze_solver.egg-info/top_level.txt
+[1.703s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[1.705s] reading manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[1.706s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[1.706s] running build
+[1.706s] running build_py
+[1.707s] creating /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build
+[1.707s] creating /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib
+[1.707s] creating /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver
+[1.707s] copying maze_solver/maze_solver_node.py -> /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver
+[1.708s] copying maze_solver/__init__.py -> /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver
+[1.708s] running install
+[1.708s] running install_lib
+[1.709s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[1.710s] copying /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver/maze_solver_node.py -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[1.710s] copying /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver/__init__.py -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[1.712s] byte-compiling /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver/maze_solver_node.py to maze_solver_node.cpython-310.pyc
+[1.713s] byte-compiling /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver/__init__.py to __init__.cpython-310.pyc
+[1.713s] running install_data
+[1.714s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/ament_index
+[1.714s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/ament_index/resource_index
+[1.716s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/ament_index/resource_index/packages
+[1.716s] copying resource/maze_solver -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/ament_index/resource_index/packages
+[1.716s] copying package.xml -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver
+[1.717s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/launch
+[1.717s] copying launch/maze_launch.py -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/launch
+[1.717s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/urdf
+[1.717s] copying urdf/robot.urdf -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/urdf
+[1.717s] creating /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/worlds
+[1.717s] copying worlds/maze.world -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/share/maze_solver/worlds
+[1.717s] running install_egg_info
+[1.718s] Copying ../../build/maze_solver/maze_solver.egg-info to /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info
+[1.753s] running install_scripts
+[1.783s] Installing maze_solver_node script to /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/maze_solver
+[1.784s] writing list of installed files to '/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log'
+[1.805s] Invoked command in '/home/pes2ug23cs625/maze_robot_ws/src/maze_solver' returned '0': PYTHONPATH=/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build install --record /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+maze_solver_node = maze_solver.maze_solver_node:main
+

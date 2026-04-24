@@ -1,0 +1,24 @@
+[1.881s] Invoking command in '/home/pes2ug23cs625/maze_robot_ws/src/maze_solver': PYTHONPATH=/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build install --record /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log --single-version-externally-managed install_data
+[2.580s] running egg_info
+[2.581s] writing ../../build/maze_solver/maze_solver.egg-info/PKG-INFO
+[2.582s] writing dependency_links to ../../build/maze_solver/maze_solver.egg-info/dependency_links.txt
+[2.583s] writing entry points to ../../build/maze_solver/maze_solver.egg-info/entry_points.txt
+[2.584s] writing requirements to ../../build/maze_solver/maze_solver.egg-info/requires.txt
+[2.585s] writing top-level names to ../../build/maze_solver/maze_solver.egg-info/top_level.txt
+[2.589s] reading manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[2.592s] writing manifest file '../../build/maze_solver/maze_solver.egg-info/SOURCES.txt'
+[2.592s] running build
+[2.592s] running build_py
+[2.593s] copying maze_solver/maze_solver_node.py -> /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver
+[2.596s] running install
+[2.597s] running install_lib
+[2.597s] copying /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build/lib/maze_solver/maze_solver_node.py -> /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver
+[2.598s] byte-compiling /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver/maze_solver_node.py to maze_solver_node.cpython-310.pyc
+[2.602s] running install_data
+[2.603s] running install_egg_info
+[2.608s] removing '/home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info' (and everything under it)
+[2.609s] Copying ../../build/maze_solver/maze_solver.egg-info to /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages/maze_solver-0.0.1-py3.10.egg-info
+[2.612s] running install_scripts
+[2.657s] Installing maze_solver_node script to /home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/maze_solver
+[2.661s] writing list of installed files to '/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log'
+[2.688s] Invoked command in '/home/pes2ug23cs625/maze_robot_ws/src/maze_solver' returned '0': PYTHONPATH=/home/pes2ug23cs625/maze_robot_ws/build/maze_solver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pes2ug23cs625/maze_robot_ws/install/maze_solver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/maze_solver build --build-base /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/build install --record /home/pes2ug23cs625/maze_robot_ws/build/maze_solver/install.log --single-version-externally-managed install_data

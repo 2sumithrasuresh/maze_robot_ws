@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="maze_world">
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- ========== MAZE WALLS ========== -->
+    <!-- Outer boundary walls -->
+
+    <!-- South wall -->
+    <model name="wall_south">
+      <static>true</static>
+      <pose>0 -3 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>6 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>6 0.1 1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- North wall -->
+    <model name="wall_north">
+      <static>true</static>
+      <pose>0 3 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>6 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>6 0.1 1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- West wall -->
+    <model name="wall_west">
+      <static>true</static>
+      <pose>-3 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 6 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 6 1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- East wall -->
+    <model name="wall_east">
+      <static>true</static>
+      <pose>3 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 6 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 6 1</size></box></geometry>
+          <material><ambient>0.5 0.5 0.5 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- Internal maze walls -->
+    <model name="wall_i1">
+      <static>true</static>
+      <pose>-1.5 2 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>3 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>3 0.1 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="wall_i2">
+      <static>true</static>
+      <pose>0 1 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 2 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 2 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <!-- wall_i3 split into two with a gap for the robot to pass through -->
+    <model name="wall_i3a">
+      <static>true</static>
+      <pose>0.5 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>1.0 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>1.0 0.1 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+    
+     <model name="wall_i3b">
+      <static>true</static>
+      <pose>2.8 0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.3 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.5 0.1 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="wall_i4">
+      <static>true</static>
+      <pose>-1.5 -1 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>0.1 2 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>0.1 2 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+    <model name="wall_i5">
+      <static>true</static>
+      <pose>0 -2 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col"><geometry><box><size>3 0.1 1</size></box></geometry></collision>
+        <visual name="vis"><geometry><box><size>3 0.1 1</size></box></geometry>
+          <material><ambient>0.3 0.3 0.8 1</ambient></material></visual>
+      </link>
+    </model>
+
+ <!-- GOAL MARKER - green cylinder at exit point -->
+    <model name="goal_marker">
+      <static>true</static>
+      <pose>2.5 2.5 0.05 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><cylinder><radius>0.2</radius><length>0.1</length></cylinder></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><cylinder><radius>0.2</radius><length>0.1</length></cylinder></geometry>
+          <material>
+            <ambient>0 1 0 1</ambient>
+            <diffuse>0 1 0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+ </world>
+</sdf>
